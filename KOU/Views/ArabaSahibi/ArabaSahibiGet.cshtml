@@ -1,0 +1,27 @@
+﻿@model KOU.Models.ArabaSahibi
+@{
+    ViewData["Title"] = "ArabaSahibiGet";
+    Layout = "~/Views/Shared/a1.cshtml";
+}
+
+<h1>Araba sahiplerinin bilgilerini güncellemek için</h1>
+
+<br />
+@using (Html.BeginForm("ArabaSahibiGuncelle", "ArabaSahibi", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.Id)
+    <br />
+    @Html.Label("Araba sahibi adı:")
+    @Html.TextBoxFor(x => x.ArabaSahibiAdi, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ArabaSahibiAdi, "", new { @style = "color:red" })
+    <br />
+    @Html.HiddenFor(x => x.ArabaId)
+    <br />
+    @Html.Label("Borç:")
+    @Html.TextBoxFor(x => x.Borc, new { @class = "form-control" })
+    <br />
+    @Html.Label("Alacak:")
+    @Html.TextBoxFor(x => x.Alacak, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Kaydet</button>
+}

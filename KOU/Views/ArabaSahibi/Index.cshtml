@@ -1,0 +1,32 @@
+﻿@model List<KOU.Models.ArabaSahibi>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<h1>Oto Servisteki Arabaların Sahipleri</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <td>Araba sahibinin ID'si</td>
+        <td>Araba sahibi adı</td>
+        <td>ArabaId</td>
+        <td>Borç</td>
+        <td>Alacak</td>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.ArabaSahibiAdi</td>
+            <td>@x.ArabaId</td>
+            <td>@x.Borc</td>
+            <td>@x.Alacak</td>
+            <td><a href="/ArabaSahibi/ArabaSahibiSil/@x.Id" class="btn btn-danger">Veriyi Sil</a></td>
+            <td><a href="/ArabaSahibi/ArabaSahibiGet/@x.Id" class="btn btn-info">Veriyi Güncelle</a></td>
+        </tr>
+    }
+    </table>
+<a href="/ArabaSahibi/ArabaSahibiEkle/" class="btn btn-primary">Yeni Veri Girişi</a>

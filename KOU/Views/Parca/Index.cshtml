@@ -1,0 +1,29 @@
+﻿@model List<KOU.Models.Parca>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<h1>Stoğumuzdaki Parça Bilgileri</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <td>Parçanın ID'si</td>
+        <td>Parçanın adı</td>
+        <td>Parça Stoğu</td>
+        <td>Parçanın Türü</td>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ParcaId</td>
+            <td>@x.ParcaIsim</td>
+            <td>@x.ParcaStok</td>
+            <td>@x.ParcaTur</td>
+            <td><a href="/Parca/ParcaSil/@x.ParcaId" class="btn btn-danger">Veriyi Sil</a></td>
+            <td><a href="/Parca/ParcaGet/@x.ParcaId" class="btn btn-info">Veriyi Güncelle</a></td>
+        </tr>
+    }
+</table>
+<a href="/Parca/ParcaEkle/" class="btn btn-primary">Yeni Veri Girişi</a>

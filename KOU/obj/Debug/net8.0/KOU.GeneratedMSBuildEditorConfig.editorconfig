@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KOU
+build_property.RootNamespace = KOU
+build_property.ProjectDir = C:\Users\PC-G54348\Source\Repos\Projelerim\KOU\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\PC-G54348\Source\Repos\Projelerim\KOU
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/ArabaSahibi/ArabaSahibiEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhYmFTYWhpYmlcQXJhYmFTYWhpYmlFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/ArabaSahibi/ArabaSahibiGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhYmFTYWhpYmlcQXJhYmFTYWhpYmlHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/ArabaSahibi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhYmFTYWhpYmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Araba/ArabaEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhYmFcQXJhYmFFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Araba/ArabaGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhYmFcQXJhYmFHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Araba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhYmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Parca/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Parca/ParcaEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2FcUGFyY2FFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Parca/ParcaGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2FcUGFyY2FHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Shared/a1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGExLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC-G54348/Source/Repos/Projelerim/KOU/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g9joumkmsy

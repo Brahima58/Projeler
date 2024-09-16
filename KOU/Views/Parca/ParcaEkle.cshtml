@@ -1,0 +1,23 @@
+﻿@model KOU.Models.Parca
+@{
+    ViewData["Title"] = "ParcaEkle";
+    Layout = "~/Views/Shared/a1.cshtml";
+}
+
+<h1>ParcaEkle</h1>
+
+<br />
+@using (Html.BeginForm("ParcaEkle", "Parca", FormMethod.Post))
+{
+    @Html.Label("Parçanın adı:")
+    @Html.TextBoxFor(x => x.ParcaIsim, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ParcaIsim, "", new { @style = "color:red" })
+    <br />
+    @Html.Label("Parçanın stoğu:")
+    @Html.TextBoxFor(x => x.ParcaStok, new { @class = "form-control" })
+    <br />
+    @Html.Label("Parçanın türü:")
+    @Html.TextBoxFor(x => x.ParcaTur, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Kaydet</button>
+}

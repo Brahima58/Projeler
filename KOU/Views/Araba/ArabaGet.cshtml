@@ -1,0 +1,53 @@
+﻿@model KOU.Models.Araba
+
+@{
+    ViewData["Title"] = "ArabaGet";
+    Layout = "~/Views/Shared/a1.cshtml";
+}
+
+<h1>Araba Güncellemek İçin</h1>
+<br />
+@using (Html.BeginForm("ArabaGuncelle", "Araba", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.ArabaId)
+    <br />
+    @Html.LabelFor(x => x.Marka)
+    @Html.TextBoxFor(x => x.Marka, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Marka, "", new { @style = "color:red" })
+    <br />
+    @Html.LabelFor(x => x.Model)
+    @Html.TextBoxFor(x => x.Model, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Model, "", new { @style = "color:red" })
+    <br />
+    @Html.LabelFor(x => x.Plaka)
+    @Html.TextBoxFor(x => x.Plaka, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Plaka, "", new { @style = "color:red" })
+    <br />
+    @Html.LabelFor(x => x.Renk)
+    @Html.TextBoxFor(x => x.Renk, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Renk, "", new { @style = "color:red" })
+    <br />
+    @Html.Label("Şasi no:")
+    @Html.TextBoxFor(x => x.Sasi, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Sasi, "", new { @style = "color:red" })
+    <br />
+    @Html.LabelFor(x => x.Problem)
+    @Html.TextBoxFor(x => x.Problem, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Problem, "", new { @style = "color:red" })
+    <br />
+    @Html.LabelFor(x => x.Kilometre)
+    @Html.TextBoxFor(x => x.Kilometre, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Kilometre, "", new { @style = "color:red" })
+    <br />
+    @Html.Label("Yapılan işlem:")
+    @Html.TextBoxFor(x => x.Islem, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Islem, "", new { @style = "color:red" })
+    <br />
+    @Html.Label("Yapılan işlem ücreti:")
+    @Html.TextBoxFor(x => x.IslemUcret, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.IslemUcret, "", new { @style = "color:red" })
+    <br />
+    <button class="btn btn-info">Güncelleme</button>
+}
+
+

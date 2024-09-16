@@ -1,0 +1,43 @@
+﻿@model List<KOU.Models.Araba>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<h1>Oto Servisteki Arabaların Bilgileri</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <td>Araba Id'si</td>
+        <td>Marka</td>
+        <td>Model</td>
+        <td>Plaka</td>
+        <td>Renk</td>
+        <td>Şasi No</td>
+        <td>Problem</td>
+        <td>Kilometre</td>
+        <td>İşlem</td>
+        <td>İşlem Ücreti</td>
+    </tr>
+        @foreach (var x in Model)
+        {
+        <tr>
+        <td>@x.ArabaId</td>
+        <td>@x.Marka</td>
+        <td>@x.Model</td>
+        <td>@x.Plaka</td>
+        <td>@x.Renk</td>
+        <td>@x.Sasi</td>
+        <td>@x.Problem</td>
+        <td>@x.Kilometre</td>
+        <td>@x.Islem</td>
+        <td>@x.IslemUcret</td>
+        <td><a href="/Araba/ArabaSil/@x.ArabaId" class="btn btn-danger">Veriyi Sil</a></td>
+        <td><a href="/Araba/ArabaGet/@x.ArabaId" class="btn btn-info">Veri Güncelleme</a></td>
+        </tr>
+        }
+</table>
+<a href="/Araba/ArabaEkle/" class="btn btn-primary">Yeni Veri Girişi</a>
+
+       

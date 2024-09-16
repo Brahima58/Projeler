@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = "/Views/Shared/_Layout1.cshtml";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+ .p1 {
+      text-align:center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+        font-weight: 500;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 20px;
+        }
+ .p2 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+        font-weight: 500;
+    }
+    </style >
+<div class="text-center">
+    <img src="@Url.Content("~/fotograf/tamirci.png")" alt="">
+    <p class="p2">Sitemize hoşgeldiniz</p>
+    <p class="p1">Bu site arızalı arabaların verisinin tutulduğu veri girişlerinin yapıldığı bir websitesidir. Sitemizde kendi Otoservisiniz için arızalı araba girişi, arabaların sahibi olan müşterilerin bilgisi ve parça stok bilgisini girebilirsiniz. Üstteki butonları kullanarak çeşitli işlevleri gerçekleştirebilirsiniz.</p>
+</div>
